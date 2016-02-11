@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("Mi edad es = %d \n",edad)*/
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("ingresa tu nombre")
-	nombre,err := reader.ReadString('\n')
+	nombrec,err := reader.ReadString('\n')
 	if err != nil {
 		fmt.Println(err)
 	}else{
